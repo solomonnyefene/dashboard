@@ -1,0 +1,1580 @@
+@font-face {
+  font-family: genicons;
+  src: url("../fonts/genicons.eot?d2ppca");
+  src: url("../fonts/genicons.eot?d2ppca#iefix") format("embedded-opentype"), url("../fonts/genicons.ttf?d2ppca") format("truetype"), url("../fonts/genicons.woff?d2ppca") format("woff"), url("../fonts/genicons.svg?d2ppca#genicons") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+span.genicons {
+  font-family: genicons;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.genicon-task-hammer-reopen-compact:before {
+  content: '\e99e'; }
+
+.genicon-task-hammer-reopen:before {
+  content: '\e99f'; }
+
+.genicon-arrow-reopen-compact:before {
+  content: '\e99b'; }
+
+.genicon-arrow-reopen:before {
+  content: '\e99c'; }
+
+.genicon-weather-clear-day:before {
+  content: '\e98f'; }
+
+.genicon-weather-clear-night:before {
+  content: '\e990'; }
+
+.genicon-weather-cloudy:before {
+  content: '\e991'; }
+
+.genicon-weather-fog:before {
+  content: '\e992'; }
+
+.genicon-weather-partly-cloudy-day:before {
+  content: '\e993'; }
+
+.genicon-weather-partly-cloudy-night:before {
+  content: '\e994'; }
+
+.genicon-weather-rain-heavy:before {
+  content: '\e995'; }
+
+.genicon-weather-rain-light:before {
+  content: '\e996'; }
+
+.genicon-weather-rain-medium:before {
+  content: '\e997'; }
+
+.genicon-weather-sleet:before {
+  content: '\e998'; }
+
+.genicon-weather-snow:before {
+  content: '\e999'; }
+
+.genicon-weather-wind:before {
+  content: '\e99a'; }
+
+.genicon-milestone-auto-off-circle-compact:before {
+  content: '\e987'; }
+
+.genicon-milestone-auto-off-circle:before {
+  content: '\e988'; }
+
+.genicon-milestone-auto-on-circle-compact:before {
+  content: '\e989'; }
+
+.genicon-milestone-auto-on-circle:before {
+  content: '\e98a'; }
+
+.genicon-milestone-auto-solid-compact:before {
+  content: '\e98b'; }
+
+.genicon-milestone-auto-solid:before {
+  content: '\e98c'; }
+
+.genicon-milestone-auto-stroke-compact:before {
+  content: '\e98d'; }
+
+.genicon-milestone-auto-stroke:before {
+  content: '\e98e'; }
+
+.genicon-view-tree-compact:before {
+  content: '\e985'; }
+
+.genicon-view-tree:before {
+  content: '\e986'; }
+
+.genicon-phase-second-compact:before {
+  content: '\e983'; }
+
+.genicon-phase-second:before {
+  content: '\e984'; }
+
+.genicon-eagle-solid-compact:before {
+  content: '\e981'; }
+
+.genicon-eagle-solid:before {
+  content: '\e982'; }
+
+.genicon-shape-rosette-solid:before {
+  content: '\e980'; }
+
+.genicon-shape-ribbon-solid:before {
+  content: '\e97f'; }
+
+.genicon-shape-ribbon-stroke:before {
+  content: '\e97e'; }
+
+.genicon-shape-burst-pointed-solid-compact:before {
+  content: '\e976'; }
+
+.genicon-shape-burst-pointed-solid:before {
+  content: '\e977'; }
+
+.genicon-shape-burst-pointed-stroke-compact:before {
+  content: '\e978'; }
+
+.genicon-shape-burst-pointed-stroke:before {
+  content: '\e979'; }
+
+.genicon-shape-burst-rounded-solid-compact:before {
+  content: '\e97a'; }
+
+.genicon-shape-burst-rounded-solid:before {
+  content: '\e97b'; }
+
+.genicon-shape-burst-rounded-stroke-compact:before {
+  content: '\e97c'; }
+
+.genicon-shape-burst-rounded-stroke:before {
+  content: '\e97d'; }
+
+.genicon-shape-shield-solid-compact:before {
+  content: '\e972'; }
+
+.genicon-shape-shield-solid:before {
+  content: '\e973'; }
+
+.genicon-shape-shield-stroke-compact:before {
+  content: '\e974'; }
+
+.genicon-shape-shield-stroke:before {
+  content: '\e975'; }
+
+.genicon-coins-stacked:before {
+  content: '\e969'; }
+
+.genicon-dollar-ringed:before {
+  content: '\e96a'; }
+
+.genicon-dollar:before {
+  content: '\e96b'; }
+
+.genicon-person-tick-boxed:before {
+  content: '\e96c'; }
+
+.genicon-person-tick-circle:before {
+  content: '\e96d'; }
+
+.genicon-person-tick:before {
+  content: '\e96e'; }
+
+.genicon-world-globe:before {
+  content: '\e96f'; }
+
+.genicon-world-ringed-inverse:before {
+  content: '\e970'; }
+
+.genicon-world-ringed:before {
+  content: '\e971'; }
+
+.genicon-arrow-down-left:before {
+  content: '\e959'; }
+
+.genicon-arrow-down-left-compact:before {
+  content: '\e95a'; }
+
+.genicon-arrow-left:before {
+  content: '\e95b'; }
+
+.genicon-arrow-right-compact:before {
+  content: '\e95c'; }
+
+.genicon-arrow-down-compact:before {
+  content: '\e95d'; }
+
+.genicon-arrow-left-compact:before {
+  content: '\e95e'; }
+
+.genicon-arrow-right:before {
+  content: '\e95f'; }
+
+.genicon-arrow-up-compact:before {
+  content: '\e960'; }
+
+.genicon-arrow-up-left-compact:before {
+  content: '\e961'; }
+
+.genicon-arrow-down-right:before {
+  content: '\e962'; }
+
+.genicon-arrow-up-left:before {
+  content: '\e963'; }
+
+.genicon-arrow-up-right:before {
+  content: '\e964'; }
+
+.genicon-arrow-down:before {
+  content: '\e965'; }
+
+.genicon-arrow-up-right-compact:before {
+  content: '\e966'; }
+
+.genicon-arrow-down-right-compact:before {
+  content: '\e967'; }
+
+.genicon-arrow-up:before {
+  content: '\e968'; }
+
+.genicon-mobile-rotate:before {
+  content: '\e953'; }
+
+.genicon-tablet-compact:before {
+  content: '\e954'; }
+
+.genicon-tablet:before {
+  content: '\e958'; }
+
+.genicon-fedora:before {
+  content: '\e952'; }
+
+.genicon-plus-minus-compact:before {
+  content: '\e948'; }
+
+.genicon-plus-minus-thin-compact:before {
+  content: '\e949'; }
+
+.genicon-plus-minus-thin:before {
+  content: '\e94a'; }
+
+.genicon-plus-minus:before {
+  content: '\e94b'; }
+
+.genicon-view-cards-compact:before {
+  content: '\e940'; }
+
+.genicon-view-cards:before {
+  content: '\e941'; }
+
+.genicon-sidepanel-left-close:before {
+  content: '\e902'; }
+
+.genicon-sidepanel-left-open:before {
+  content: '\e938'; }
+
+.genicon-sidepanel-left-close-compact:before {
+  content: '\e939'; }
+
+.genicon-sidepanel-left-open-compact:before {
+  content: '\e93a'; }
+
+.genicon-sidepanel-right-open:before {
+  content: '\e93b'; }
+
+.genicon-sidepanel-right-close:before {
+  content: '\e93c'; }
+
+.genicon-sidepanel-right-open-compact:before {
+  content: '\e93d'; }
+
+.genicon-sidepanel-right-close-compact:before {
+  content: '\e93e'; }
+
+.genicon-screen-empty-compact:before {
+  content: '\e936'; }
+
+.genicon-screen-empty:before {
+  content: '\e937'; }
+
+.genicon-ganttbars-baseline-compact:before {
+  content: '\e934'; }
+
+.genicon-ganttbars-baseline:before {
+  content: '\e935'; }
+
+.genicon-task-modifier-cancel-mini:before {
+  content: '\e928'; }
+
+.genicon-task-modifier-cancel-compact:before {
+  content: '\e920'; }
+
+.genicon-task-modifier-cancel:before {
+  content: '\e918'; }
+
+.genicon-task-modifier-child-mini:before {
+  content: '\e929'; }
+
+.genicon-task-modifier-child-compact:before {
+  content: '\e921'; }
+
+.genicon-task-modifier-child:before {
+  content: '\e919'; }
+
+.genicon-task-modifier-duration-mini:before {
+  content: '\e92a'; }
+
+.genicon-task-modifier-duration-compact:before {
+  content: '\e922'; }
+
+.genicon-task-modifier-duration:before {
+  content: '\e91b'; }
+
+.genicon-task-modifier-duration-double-mini:before {
+  content: '\e92b'; }
+
+.genicon-task-modifier-duration-double-compact:before {
+  content: '\e923'; }
+
+.genicon-task-modifier-duration-double:before {
+  content: '\e91a'; }
+
+.genicon-task-modifier-multi-mini:before {
+  content: '\e92c'; }
+
+.genicon-task-modifier-multi-compact:before {
+  content: '\e924'; }
+
+.genicon-task-modifier-multi:before {
+  content: '\e91c'; }
+
+.genicon-task-modifier-parent-mini:before {
+  content: '\e92d'; }
+
+.genicon-task-modifier-parent-compact:before {
+  content: '\e925'; }
+
+.genicon-task-modifier-parent:before {
+  content: '\e91d'; }
+
+.genicon-task-modifier-reorder-mini:before {
+  content: '\e92e'; }
+
+.genicon-task-modifier-reorder-compact:before {
+  content: '\e926'; }
+
+.genicon-task-modifier-reorder:before {
+  content: '\e91e'; }
+
+.genicon-task-modifier-start-date-mini:before {
+  content: '\e92f'; }
+
+.genicon-task-modifier-start-date-compact:before {
+  content: '\e927'; }
+
+.genicon-task-modifier-start-date:before {
+  content: '\e91f'; }
+
+.genicon-social-instagram-boxed:before {
+  content: '\e932'; }
+
+.genicon-social-instagram:before {
+  content: '\e933'; }
+
+.genicon-social-facebook-boxed:before {
+  content: '\e90a'; }
+
+.genicon-social-facebook:before {
+  content: '\e90b'; }
+
+.genicon-social-google-boxed:before {
+  content: '\e90c'; }
+
+.genicon-social-google:before {
+  content: '\e90d'; }
+
+.genicon-social-linkedin-boxed:before {
+  content: '\e90e'; }
+
+.genicon-social-linkedin:before {
+  content: '\e90f'; }
+
+.genicon-social-twitter-boxed:before {
+  content: '\e910'; }
+
+.genicon-social-twitter:before {
+  content: '\e911'; }
+
+.genicon-social-youtube-boxed:before {
+  content: '\e912'; }
+
+.genicon-social-youtube:before {
+  content: '\e913'; }
+
+.genicon-social-email:before {
+  content: '\e930'; }
+
+.genicon-social-email-boxed:before {
+  content: '\e931'; }
+
+.genicon-quotes-round-ninetynine-compact:before {
+  content: '\e93f'; }
+
+.genicon-quotes-round-ninetynine:before {
+  content: '\e903'; }
+
+.genicon-quotes-round-sixtysix-compact:before {
+  content: '\e904'; }
+
+.genicon-quotes-round-sixtysix:before {
+  content: '\e905'; }
+
+.genicon-quotes-square-ninetynine-compact:before {
+  content: '\e906'; }
+
+.genicon-quotes-square-ninetynine:before {
+  content: '\e907'; }
+
+.genicon-quotes-square-sixtysix-compact:before {
+  content: '\e908'; }
+
+.genicon-quotes-square-sixtysix:before {
+  content: '\e909'; }
+
+.genicon-binder-addto-compact:before {
+  content: '\e801'; }
+
+.genicon-binder-addto:before {
+  content: '\e802'; }
+
+.genicon-binder-compact:before {
+  content: '\e803'; }
+
+.genicon-binder-download-compact:before {
+  content: '\e804'; }
+
+.genicon-binder-download:before {
+  content: '\e805'; }
+
+.genicon-binder-plus-compact:before {
+  content: '\e806'; }
+
+.genicon-binder-plus:before {
+  content: '\e807'; }
+
+.genicon-binder-upload-compact:before {
+  content: '\e808'; }
+
+.genicon-binder-upload:before {
+  content: '\e809'; }
+
+.genicon-binder:before {
+  content: '\e80a'; }
+
+.genicon-book-stroke-compact:before {
+  content: '\e80b'; }
+
+.genicon-book-stroke:before {
+  content: '\e80c'; }
+
+.genicon-camera-solid-compact:before {
+  content: '\e80d'; }
+
+.genicon-camera-solid:before {
+  content: '\e80e'; }
+
+.genicon-camera-stroke-compact:before {
+  content: '\e80f'; }
+
+.genicon-camera-stroke:before {
+  content: '\e810'; }
+
+.genicon-add-compact:before {
+  content: '\e600'; }
+
+.genicon-add:before {
+  content: '\e601'; }
+
+.genicon-add-mini:before {
+  content: '\e602'; }
+
+.genicon-add-boxed-compact:before {
+  content: '\e603'; }
+
+.genicon-add-boxed:before {
+  content: '\e604'; }
+
+.genicon-add-circle-compact:before {
+  content: '\e605'; }
+
+.genicon-add-circle:before {
+  content: '\e606'; }
+
+.genicon-add-ringed-compact:before {
+  content: '\e607'; }
+
+.genicon-add-ringed:before {
+  content: '\e608'; }
+
+.genicon-add-square-compact:before {
+  content: '\e609'; }
+
+.genicon-add-square:before {
+  content: '\e60a'; }
+
+.genicon-barchart-compact:before {
+  content: '\e60b'; }
+
+.genicon-barchart:before {
+  content: '\e60c'; }
+
+.genicon-beats-pulse-compact:before {
+  content: '\e955'; }
+
+.genicon-beats-pulse:before,
+.project-outer-container .project-item .project-stats ul .beats:before {
+  content: '\e60d'; }
+
+.genicon-bell-circle-compact:before {
+  content: '\e60e'; }
+
+.genicon-bell-circle:before {
+  content: '\e60f'; }
+
+.genicon-bell-ringed-compact:before {
+  content: '\e610'; }
+
+.genicon-bell-ringed:before {
+  content: '\e611'; }
+
+.genicon-bell-solid-compact:before {
+  content: '\e612'; }
+
+.genicon-bell-solid:before {
+  content: '\e613'; }
+
+.genicon-bell-stroke-compact:before {
+  content: '\e614'; }
+
+.genicon-bell-stroke:before {
+  content: '\e615'; }
+
+.genicon-bubble-question-square-compact:before {
+  content: '\e616'; }
+
+.genicon-bubble-question-square:before {
+  content: '\e617'; }
+
+.genicon-bubble-solid-square-compact:before {
+  content: '\e618'; }
+
+.genicon-bubble-solid-square:before {
+  content: '\e619'; }
+
+.genicon-bubble-stroke-square-compact:before {
+  content: '\e61a'; }
+
+.genicon-bubble-stroke-square:before {
+  content: '\e61b'; }
+
+.genicon-bubbles-round-solid:before {
+  content: '\e61c'; }
+
+.genicon-bubbles-round-stroke:before {
+  content: '\e61d'; }
+
+.genicon-bubbles-solid-stroke-compact:before {
+  content: '\e61e'; }
+
+.genicon-bubbles-solid-stroke:before {
+  content: '\e61f'; }
+
+.genicon-buildings-compact:before {
+  content: '\e620'; }
+
+.genicon-buildings:before {
+  content: '\e621'; }
+
+.genicon-buildings-plus-compact:before {
+  content: '\e900'; }
+
+.genicon-buildings-plus:before {
+  content: '\e901'; }
+
+.genicon-calendar-add-compact:before {
+  content: '\e916'; }
+
+.genicon-calendar-add:before {
+  content: '\e917'; }
+
+.genicon-calendar-bell-compact:before {
+  content: '\e622'; }
+
+.genicon-calendar-bell:before {
+  content: '\e623'; }
+
+.genicon-calendar-date-compact:before {
+  content: '\e624'; }
+
+.genicon-calendar-date:before {
+  content: '\e625'; }
+
+.genicon-calendar-empty-compact:before {
+  content: '\e626'; }
+
+.genicon-calendar-empty:before {
+  content: '\e627'; }
+
+.genicon-calendar-grid-compact:before {
+  content: '\e628'; }
+
+.genicon-calendar-grid:before {
+  content: '\e629'; }
+
+.genicon-captain-compact:before {
+  content: '\e62a'; }
+
+.genicon-captain:before {
+  content: '\e62b'; }
+
+.genicon-caret-compact:before {
+  content: '\e62c'; }
+
+.genicon-caret-right-compact:before {
+  content: '\e62d'; }
+
+.genicon-caret:before {
+  content: '\e62e'; }
+
+.genicon-caret-right:before {
+  content: '\e62f'; }
+
+.genicon-chevron-up-fat-circle:before {
+  content: '\e630'; }
+
+.genicon-chevron-down-fat-circle:before {
+  content: '\e631'; }
+
+.genicon-chevron-left-fat-circle:before {
+  content: '\e632'; }
+
+.genicon-chevron-right-fat-circle:before {
+  content: '\e633'; }
+
+.genicon-chevron-up-fat-compact:before {
+  content: '\e634'; }
+
+.genicon-chevron-down-fat-compact:before {
+  content: '\e635'; }
+
+.genicon-chevron-left-fat-compact:before {
+  content: '\e636'; }
+
+.genicon-chevron-right-fat-compact:before {
+  content: '\e637'; }
+
+.genicon-chevron-up-fat:before {
+  content: '\e638'; }
+
+.genicon-chevron-down-fat:before {
+  content: '\e639'; }
+
+.genicon-chevron-left-fat:before {
+  content: '\e63a'; }
+
+.genicon-chevron-right-fat:before {
+  content: '\e63b'; }
+
+.genicon-chevron-up-thin-compact:before {
+  content: '\e63c'; }
+
+.genicon-chevron-down-thin-compact:before {
+  content: '\e63d'; }
+
+.genicon-chevron-left-thin-compact:before {
+  content: '\e63e'; }
+
+.genicon-chevron-right-thin-compact:before {
+  content: '\e63f'; }
+
+.genicon-chevron-up-thin:before {
+  content: '\e640'; }
+
+.genicon-chevron-down-thin:before {
+  content: '\e641'; }
+
+.genicon-chevron-left-thin:before {
+  content: '\e642'; }
+
+.genicon-chevron-right-thin:before {
+  content: '\e643'; }
+
+.genicon-cloud-alert-compact:before {
+  content: '\e644'; }
+
+.genicon-cloud-alert:before {
+  content: '\e645'; }
+
+.genicon-cloud-refresh-compact:before {
+  content: '\e646'; }
+
+.genicon-cloud-refresh:before {
+  content: '\e647'; }
+
+.genicon-cloud-tick-compact:before {
+  content: '\e94c'; }
+
+.genicon-cloud-tick:before {
+  content: '\e94d'; }
+
+.genicon-cloud-solid-compact:before {
+  content: '\e648'; }
+
+.genicon-cloud-solid:before {
+  content: '\e649'; }
+
+.genicon-cloud-download-compact:before {
+  content: '\e94e'; }
+
+.genicon-cloud-download:before {
+  content: '\e94f'; }
+
+.genicon-cloud-upload-compact:before {
+  content: '\e64a'; }
+
+.genicon-cloud-upload:before {
+  content: '\e64b'; }
+
+.genicon-cloud-warning-compact:before {
+  content: '\e64c'; }
+
+.genicon-cloud-warning:before {
+  content: '\e64d'; }
+
+.genicon-cross-boxed-compact:before {
+  content: '\e64e'; }
+
+.genicon-cross-boxed:before {
+  content: '\e64f'; }
+
+.genicon-cross-cancel-circle-compact:before {
+  content: '\e650'; }
+
+.genicon-cross-cancel-circle:before {
+  content: '\e651'; }
+
+.genicon-cross-cancel-compact:before {
+  content: '\e652'; }
+
+.genicon-cross-cancel:before {
+  content: '\e653'; }
+
+.genicon-cross-close-compact:before {
+  content: '\e654'; }
+
+.genicon-cross-close:before {
+  content: '\e655'; }
+
+.genicon-cross-dismiss-circle-compact:before {
+  content: '\e656'; }
+
+.genicon-cross-dismiss-circle:before {
+  content: '\e657'; }
+
+.genicon-cross-dismiss-square-compact:before {
+  content: '\e658'; }
+
+.genicon-cross-dismiss-square:before {
+  content: '\e659'; }
+
+.genicon-cross-rejected:before {
+  content: '\e65a'; }
+
+.genicon-cross-ringed-compact:before {
+  content: '\e65b'; }
+
+.genicon-cross-ringed:before {
+  content: '\e65c'; }
+
+.genicon-crown-compact:before {
+  content: '\e65d'; }
+
+.genicon-crown:before {
+  content: '\e65e'; }
+
+.genicon-dashboard-blocks-compact:before {
+  content: '\e99d'; }
+
+.genicon-dashboard-blocks:before {
+  content: '\e65f'; }
+
+.genicon-dependencies-mini:before {
+  content: '\e944'; }
+
+.genicon-dependencies-compact:before {
+  content: '\e660'; }
+
+.genicon-dependencies:before {
+  content: '\e661'; }
+
+.genicon-dependencies-plus-mini:before {
+  content: '\e946'; }
+
+.genicon-dependencies-plus-compact:before {
+  content: '\e945'; }
+
+.genicon-dependencies-plus:before {
+  content: '\e947'; }
+
+.genicon-envelope-solid-compact:before {
+  content: '\e662'; }
+
+.genicon-envelope-solid:before {
+  content: '\e663'; }
+
+.genicon-envelope-stroke-compact:before {
+  content: '\e664'; }
+
+.genicon-envelope-stroke:before {
+  content: '\e665'; }
+
+.genicon-exclamation-compact:before {
+  content: '\e666'; }
+
+.genicon-exclamation:before {
+  content: '\e667'; }
+
+.genicon-eye-open-compact:before {
+  content: '\e668'; }
+
+.genicon-eye-open:before {
+  content: '\e669'; }
+
+.genicon-eye-open-invert-compact:before {
+  content: '\e956'; }
+
+.genicon-eye-open-invert:before {
+  content: '\e957'; }
+
+.genicon-eye-strikethrough-compact:before {
+  content: '\e942'; }
+
+.genicon-eye-strikethrough:before {
+  content: '\e943'; }
+
+.genicon-drawings-multiple-compact:before {
+  content: '\e811'; }
+
+.genicon-drawings-multiple:before {
+  content: '\e812'; }
+
+.genicon-drawings-blank-compact:before {
+  content: '\e66a'; }
+
+.genicon-drawings-blank:before {
+  content: '\e66b'; }
+
+.genicon-drawings-cad-compact:before {
+  content: '\e66c'; }
+
+.genicon-drawings-cad:before {
+  content: '\e66d'; }
+
+.genicon-drawings-image-compact:before {
+  content: '\e66e'; }
+
+.genicon-drawings-image:before {
+  content: '\e66f'; }
+
+.genicon-drawings-pdf-compact:before {
+  content: '\e670'; }
+
+.genicon-drawings-pdf:before {
+  content: '\e671'; }
+
+.genicon-drawings-spreadsheet-compact:before {
+  content: '\e672'; }
+
+.genicon-drawings-spreadsheet:before {
+  content: '\e673'; }
+
+.genicon-drawings-video-compact:before {
+  content: '\e674'; }
+
+.genicon-drawings-video:before {
+  content: '\e675'; }
+
+.genicon-drawings-word-compact:before {
+  content: '\e676'; }
+
+.genicon-drawings-word:before {
+  content: '\e677'; }
+
+.genicon-drawings-zip-compact:before {
+  content: '\e678'; }
+
+.genicon-drawings-zip:before {
+  content: '\e679'; }
+
+.genicon-file-blank-compact:before {
+  content: '\e67a'; }
+
+.genicon-file-blank:before {
+  content: '\e67b'; }
+
+.genicon-file-cad-compact:before {
+  content: '\e67c'; }
+
+.genicon-file-cad:before {
+  content: '\e67d'; }
+
+.genicon-file-image-compact:before {
+  content: '\e67e'; }
+
+.genicon-file-image:before {
+  content: '\e67f'; }
+
+.genicon-file-movie-compact:before {
+  content: '\e680'; }
+
+.genicon-file-movie:before {
+  content: '\e681'; }
+
+.genicon-file-multiple-compact:before {
+  content: '\e682'; }
+
+.genicon-file-multiple:before {
+  content: '\e683'; }
+
+.genicon-file-pdf-compact:before {
+  content: '\e684'; }
+
+.genicon-file-pdf:before {
+  content: '\e685'; }
+
+.genicon-file-spreadsheet-compact:before {
+  content: '\e686'; }
+
+.genicon-file-spreadsheet:before {
+  content: '\e687'; }
+
+.genicon-file-video-compact:before {
+  content: '\e688'; }
+
+.genicon-file-video:before {
+  content: '\e689'; }
+
+.genicon-file-word-compact:before {
+  content: '\e68a'; }
+
+.genicon-file-word:before {
+  content: '\e68b'; }
+
+.genicon-file-zip-compact:before {
+  content: '\e68c'; }
+
+.genicon-file-zip:before {
+  content: '\e68d'; }
+
+.genicon-flag-compact:before {
+  content: '\e68e'; }
+
+.genicon-flag:before {
+  content: '\e68f'; }
+
+.genicon-folder-closed-compact:before {
+  content: '\e690'; }
+
+.genicon-folder-closed:before {
+  content: '\e691'; }
+
+.genicon-folder-open-compact:before {
+  content: '\e692'; }
+
+.genicon-folder-open:before {
+  content: '\e693'; }
+
+.genicon-folder-plus-compact:before {
+  content: '\e694'; }
+
+.genicon-folder-plus:before {
+  content: '\e695'; }
+
+.genicon-folder-closed-large:before {
+  content: '\e696'; }
+
+.genicon-folder-locked-compact:before {
+  content: '\e697'; }
+
+.genicon-folder-locked:before {
+  content: '\e698'; }
+
+.genicon-folder-locked-large:before {
+  content: '\e699'; }
+
+.genicon-funnel-compact:before {
+  content: '\e69a'; }
+
+.genicon-funnel:before {
+  content: '\e69b'; }
+
+.genicon-funnel-caret-compact:before {
+  content: '\e69c'; }
+
+.genicon-ganttbars-compact:before {
+  content: '\e69d'; }
+
+.genicon-ganttbars:before {
+  content: '\e69e'; }
+
+.genicon-gear-compact:before {
+  content: '\e69f'; }
+
+.genicon-gear:before {
+  content: '\e6a0'; }
+
+.genicon-gears:before {
+  content: '\e6a1'; }
+
+.genicon-view-table-compact:before {
+  content: '\e6a2'; }
+
+.genicon-view-table:before {
+  content: '\e6a3'; }
+
+.genicon-view-grid-compact:before {
+  content: '\e6a4'; }
+
+.genicon-view-grid:before {
+  content: '\e6a5'; }
+
+.genicon-harddrive-download-compact:before {
+  content: '\e6a6'; }
+
+.genicon-harddrive-download:before {
+  content: '\e6a7'; }
+
+.genicon-harddrive-upload-compact:before {
+  content: '\e6a8'; }
+
+.genicon-harddrive-upload:before {
+  content: '\e6a9'; }
+
+.genicon-hardhat-compact:before {
+  content: '\e6aa'; }
+
+.genicon-hardhat:before {
+  content: '\e6ab'; }
+
+.genicon-home-compact:before {
+  content: '\e6ac'; }
+
+.genicon-home:before {
+  content: '\e6ad'; }
+
+.genicon-image-placeholder:before {
+  content: '\e6ae'; }
+
+.genicon-image-placeholder-strikethrough:before {
+  content: '\e800'; }
+
+.genicon-inbox-empty-compact:before {
+  content: '\e6af'; }
+
+.genicon-inbox-empty:before {
+  content: '\e6b0'; }
+
+.genicon-inbox-in-compact:before {
+  content: '\e6b1'; }
+
+.genicon-inbox-in:before {
+  content: '\e6b2'; }
+
+.genicon-inbox-out-compact:before {
+  content: '\e6b3'; }
+
+.genicon-inbox-out:before {
+  content: '\e6b4'; }
+
+.genicon-info-circle-compact:before {
+  content: '\e6b5'; }
+
+.genicon-info-circle:before {
+  content: '\e6b6'; }
+
+.genicon-info:before {
+  content: '\e6b7'; }
+
+.genicon-links-connected-compact:before {
+  content: '\e6b8'; }
+
+.genicon-links-connected:before {
+  content: '\e6b9'; }
+
+.genicon-links-plus-compact:before {
+  content: '\e950'; }
+
+.genicon-links-plus:before {
+  content: '\e951'; }
+
+.genicon-links-disconnected-compact:before {
+  content: '\e6ba'; }
+
+.genicon-links-disconnected:before {
+  content: '\e6bb'; }
+
+.genicon-view-list-compact:before {
+  content: '\e6bc'; }
+
+.genicon-view-list:before {
+  content: '\e6bd'; }
+
+.genicon-magnify-compact:before {
+  content: '\e6be'; }
+
+.genicon-magnify:before {
+  content: '\e6bf'; }
+
+.genicon-magnify-minus-compact:before {
+  content: '\e6c0'; }
+
+.genicon-magnify-minus:before {
+  content: '\e6c1'; }
+
+.genicon-magnify-plus-compact:before {
+  content: '\e6c2'; }
+
+.genicon-magnify-plus:before {
+  content: '\e6c3'; }
+
+.genicon-manatwork-compact:before {
+  content: '\e6c4'; }
+
+.genicon-manatwork:before {
+  content: '\e6c5'; }
+
+.genicon-menu-lines-compact:before {
+  content: '\e6c6'; }
+
+.genicon-menu-lines:before {
+  content: '\e6c7'; }
+
+.genicon-menu-dots-compact:before {
+  content: '\e6c8'; }
+
+.genicon-menu-dots:before {
+  content: '\e6c9'; }
+
+.genicon-milestone-off-circle-compact:before {
+  content: '\e6ca'; }
+
+.genicon-milestone-off-circle:before {
+  content: '\e6cb'; }
+
+.genicon-milestone-on-circle-compact:before {
+  content: '\e6cc'; }
+
+.genicon-milestone-on-circle:before {
+  content: '\e6cd'; }
+
+.genicon-milestone-solid-compact:before {
+  content: '\e6ce'; }
+
+.genicon-milestone-solid:before {
+  content: '\e6cf'; }
+
+.genicon-milestone-stroke-compact:before {
+  content: '\e6d0'; }
+
+.genicon-milestone-stroke:before {
+  content: '\e6d1'; }
+
+.genicon-minus-compact:before {
+  content: '\e6d2'; }
+
+.genicon-minus:before {
+  content: '\e6d3'; }
+
+.genicon-minus-boxed-compact:before {
+  content: '\e6d4'; }
+
+.genicon-minus-boxed:before {
+  content: '\e6d5'; }
+
+.genicon-minus-ringed-compact:before {
+  content: '\e6d6'; }
+
+.genicon-minus-ringed:before {
+  content: '\e6d7'; }
+
+.genicon-mobile-compact:before {
+  content: '\e6d8'; }
+
+.genicon-mobile:before {
+  content: '\e6d9'; }
+
+.genicon-open-boxed-compact:before {
+  content: '\e6da'; }
+
+.genicon-open-boxed:before {
+  content: '\e6db'; }
+
+.genicon-open-circle-compact:before {
+  content: '\e6dc'; }
+
+.genicon-open-circle:before {
+  content: '\e6dd'; }
+
+.genicon-open-square-compact:before {
+  content: '\e6de'; }
+
+.genicon-open-square:before {
+  content: '\e6df'; }
+
+.genicon-padlock-locked:before {
+  content: '\e6e0'; }
+
+.genicon-padlock-unlocked:before {
+  content: '\e6e1'; }
+
+.genicon-paperclip-compact:before {
+  content: '\e6e2'; }
+
+.genicon-paperclip-plus-compact:before {
+  content: '\e6e3'; }
+
+.genicon-paperclip-plus:before {
+  content: '\e6e4'; }
+
+.genicon-paperclip:before {
+  content: '\e6e5'; }
+
+.genicon-pencil-boxed-compact:before {
+  content: '\e6e6'; }
+
+.genicon-pencil-compact:before {
+  content: '\e6e7'; }
+
+.genicon-pencil:before {
+  content: '\e6e8'; }
+
+.genicon-pencil-circle-compact:before {
+  content: '\e6e9'; }
+
+.genicon-pencil-circle:before {
+  content: '\e6ea'; }
+
+.genicon-pencil-edit-boxed-compact:before {
+  content: '\e6eb'; }
+
+.genicon-pencil-edit-boxed:before {
+  content: '\e6ec'; }
+
+.genicon-pencil-square-compact:before {
+  content: '\e6ed'; }
+
+.genicon-pencil-square:before {
+  content: '\e6ee'; }
+
+.genicon-people:before {
+  content: '\e6ef'; }
+
+.genicon-person-compact:before {
+  content: '\e6f0'; }
+
+.genicon-person-plus-compact:before {
+  content: '\e6f1'; }
+
+.genicon-person-plus:before {
+  content: '\e6f2'; }
+
+.genicon-person-question-compact:before {
+  content: '\e6f3'; }
+
+.genicon-person-question:before {
+  content: '\e6f4'; }
+
+.genicon-person:before {
+  content: '\e6f5'; }
+
+.genicon-phone-compact:before {
+  content: '\e6f6'; }
+
+.genicon-plane-solid-compact:before {
+  content: '\e6f7'; }
+
+.genicon-plane-solid:before {
+  content: '\e6f8'; }
+
+.genicon-plane-stroke-compact:before {
+  content: '\e6f9'; }
+
+.genicon-plane-stroke:before {
+  content: '\e6fa'; }
+
+.genicon-printer-compact:before {
+  content: '\e6fb'; }
+
+.genicon-printer:before {
+  content: '\e6fc'; }
+
+.genicon-question-circle-compact:before {
+  content: '\e6fd'; }
+
+.genicon-question-circle:before {
+  content: '\e6fe'; }
+
+.genicon-question:before {
+  content: '\e6ff'; }
+
+.genicon-request-update-compact:before {
+  content: '\e700'; }
+
+.genicon-request-update:before {
+  content: '\e701'; }
+
+.genicon-screen-zoomall-compact:before {
+  content: '\e702'; }
+
+.genicon-screen-zoomall:before {
+  content: '\e703'; }
+
+.genicon-shape-boxed-offset:before {
+  content: '\e704'; }
+
+.genicon-shape-boxed-compact:before {
+  content: '\e705'; }
+
+.genicon-shape-boxed:before {
+  content: '\e706'; }
+
+.genicon-shape-circle-compact:before {
+  content: '\e707'; }
+
+.genicon-shape-circle:before {
+  content: '\e708'; }
+
+.genicon-shape-ringed-compact:before {
+  content: '\e709'; }
+
+.genicon-shape-ringed:before {
+  content: '\e70a'; }
+
+.genicon-shape-square-compact:before {
+  content: '\e70b'; }
+
+.genicon-shape-square:before {
+  content: '\e70c'; }
+
+.genicon-shape-triangle:before {
+  content: '\e70d'; }
+
+.genicon-shape-triangle-left:before {
+  content: '\e915'; }
+
+.genicon-shape-triangle-right:before {
+  content: '\e914'; }
+
+.genicon-share-boxed-compact:before {
+  content: '\e70e'; }
+
+.genicon-share-boxed:before {
+  content: '\e70f'; }
+
+.genicon-sliders-compact:before {
+  content: '\e710'; }
+
+.genicon-sliders:before {
+  content: '\e711'; }
+
+.genicon-sort-move-compact:before {
+  content: '\e712'; }
+
+.genicon-sort-move:before {
+  content: '\e713'; }
+
+.genicon-sort-alpha-ascending-compact:before {
+  content: '\e714'; }
+
+.genicon-sort-alpha-ascending:before {
+  content: '\e715'; }
+
+.genicon-sort-numerical-ascending-compact:before {
+  content: '\e716'; }
+
+.genicon-sort-numerical-ascending:before {
+  content: '\e717'; }
+
+.genicon-spinner-arrows:before {
+  content: '\e718'; }
+
+.genicon-spinner-dots:before {
+  content: '\e719'; }
+
+.genicon-star-circle:before {
+  content: '\e71a'; }
+
+.genicon-star-solid-compact:before {
+  content: '\e71b'; }
+
+.genicon-star-solid:before {
+  content: '\e71c'; }
+
+.genicon-star-square:before {
+  content: '\e71d'; }
+
+.genicon-star-stroke-compact:before {
+  content: '\e71e'; }
+
+.genicon-star-stroke:before {
+  content: '\e71f'; }
+
+.genicon-tag-compact:before {
+  content: '\e720'; }
+
+.genicon-tag-plus-compact:before {
+  content: '\e721'; }
+
+.genicon-tag-plus:before {
+  content: '\e722'; }
+
+.genicon-tag:before {
+  content: '\e723'; }
+
+.genicon-tags:before {
+  content: '\e724'; }
+
+.genicon-task-hammer-compact:before {
+  content: '\e725'; }
+
+.genicon-task-hammer:before {
+  content: '\e726'; }
+
+.genicon-task-hammer-plus-compact:before {
+  content: '\e727'; }
+
+.genicon-task-hammer-plus:before {
+  content: '\e728'; }
+
+.genicon-task-hammer-question-compact:before {
+  content: '\e729'; }
+
+.genicon-task-hammer-question:before {
+  content: '\e72a'; }
+
+.genicon-tick-boxed-compact:before {
+  content: '\e72b'; }
+
+.genicon-tick-boxed:before {
+  content: '\e72c'; }
+
+.genicon-tick-checkbox-compact:before {
+  content: '\e72d'; }
+
+.genicon-tick-checkbox:before {
+  content: '\e72e'; }
+
+.genicon-tick-confirm-circle-compact:before {
+  content: '\e72f'; }
+
+.genicon-tick-confirm-circle:before {
+  content: '\e730'; }
+
+.genicon-tick-confirm-square-compact:before {
+  content: '\e731'; }
+
+.genicon-tick-confirm-square:before {
+  content: '\e732'; }
+
+.genicon-tick-confirm-compact:before {
+  content: '\e733'; }
+
+.genicon-tick-confirm:before {
+  content: '\e734'; }
+
+.genicon-tick-dotted:before {
+  content: '\e735'; }
+
+.genicon-tick-solid:before {
+  content: '\e736'; }
+
+.genicon-tick-ringed-compact:before {
+  content: '\e737'; }
+
+.genicon-tick-ringed:before {
+  content: '\e738'; }
+
+.genicon-timer-compact:before {
+  content: '\e739'; }
+
+.genicon-timer:before {
+  content: '\e73a'; }
+
+.genicon-trash-solid-compact:before {
+  content: '\e73b'; }
+
+.genicon-trash-solid:before {
+  content: '\e73c'; }
+
+.genicon-trash-stroke-compact:before {
+  content: '\e73d'; }
+
+.genicon-trash-stroke:before {
+  content: '\e73e'; }
+
+.genicon-vault-issue-docs-solid-compact:before {
+  content: '\e73f'; }
+
+.genicon-vault-issue-docs-solid:before {
+  content: '\e740'; }
+
+.genicon-vault-issue-docs-stroke-compact:before {
+  content: '\e741'; }
+
+.genicon-vault-issue-docs-stroke:before {
+  content: '\e742'; }
+
+.genicon-vault-issue-plus-solid-compact:before {
+  content: '\e743'; }
+
+.genicon-vault-issue-plus-solid:before {
+  content: '\e744'; }
+
+.genicon-vault-issue-plus-stroke-compact:before {
+  content: '\e745'; }
+
+.genicon-vault-issue-plus-stroke:before {
+  content: '\e746'; }
+
+.genicon-vault-issue-cancel-solid-compact:before {
+  content: '\e747'; }
+
+.genicon-vault-issue-cancel-solid:before {
+  content: '\e748'; }
+
+.genicon-vault-issue-cancel-stroke-compact:before {
+  content: '\e749'; }
+
+.genicon-vault-issue-cancel-stroke:before {
+  content: '\e74a'; }
+
+.genicon-vault-issue-solid-compact:before {
+  content: '\e74b'; }
+
+.genicon-vault-issue-solid:before {
+  content: '\e74c'; }
+
+.genicon-vault-issue-stroke-compact:before {
+  content: '\e74d'; }
+
+.genicon-vault-issue-stroke:before {
+  content: '\e74e'; }
+
+.genicon-vault-solid-compact:before {
+  content: '\e74f'; }
+
+.genicon-vault-solid:before {
+  content: '\e750'; }
+
+.genicon-vault-stroke-compact:before {
+  content: '\e751'; }
+
+.genicon-vault-stroke:before {
+  content: '\e752'; }
+
+.genicon-warning-flag-compact:before {
+  content: '\e753'; }
+
+.genicon-warning-flag:before {
+  content: '\e754'; }
+
+.genicon-warning-triangle:before {
+  content: '\e755'; }

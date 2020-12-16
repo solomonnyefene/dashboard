@@ -1,0 +1,11 @@
+.items-wrap{
+    position: absolute; top:100px;
+}
+.item{
+    width: 200px; height: 130px; background: #130060; margin: auto;
+    margin-bottom: 20px; color: #ffffff; border: 2px solid #ffffff;
+}
+.item:hover{  background: #ecf0f1; color: #130060}
+.item-title{height: 30%; border-bottom: 1px dotted #ffffff;
+    padding-top: 5px; font-weight: 900; font-size: 20px}
+.item-body{height: 70%; font-size: 30px; padding-top: 20px}

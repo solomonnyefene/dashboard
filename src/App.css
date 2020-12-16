@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background: #ffffff;
+}
+
+.side-bar{display: inline-block; background: #130060; height: 100vh; z-index: 4;
+  color: #ffffff; font-weight: 900; font-size: 16px; padding: 10px}
+.content{display: inline-block}
+.side-nav-item-wrap{margin: auto; margin-top: 50px; cursor: pointer}
+.side-tgle-icon{font-size: 15px; height: 30px; margin-left: 50px; text-align: center;
+  width: 30px; border-radius: 50%; border: 1px solid #ffffff; padding-top: 5px; cursor: pointer}
+.content-header{position: fixed; top: 0px; z-index: 5;
+  padding: 20px; text-align: center; font-weight: 900; font-size: 20px; background: #f5f5f5}
+.active-tab-indicator{height: 5px; background: orangered; width: 30px; margin: auto}
+.content-wrapper{padding: 5px; height: 450px; background: #ffffff}
