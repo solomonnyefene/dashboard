@@ -25,8 +25,8 @@ export const toggleTab = (payload) => ({
     payload: payload
 });
 
-export const toggleUpdateProductModal = (payload) => ({
-    type: 'TOGGLE_UPDATE_PRODUCT_MODAL',
+export const setActiveTab = (payload) => ({
+    type: 'SET_ACTIVE_TAB',
     payload: payload
 });
 

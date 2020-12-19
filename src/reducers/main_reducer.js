@@ -12,7 +12,7 @@ import typeToReducer from 'type-to-reducer';
 
 const INITIAL_STATE = {
     is_opened_side_bar:false,
-    active_tab: 'General'
+    active_tab: null
 }
 
 const main = typeToReducer({
@@ -26,6 +26,11 @@ const main = typeToReducer({
     ['TOGGLE_TAB']: (state, action) => ({
         ...state,
         active_tab:action.payload
+    }),
+
+   ['SET_ACTIVE_TAB']: (state, action) => ({
+        ...state,
+        active_tab: state.active_tab === null? 'General' : state.active_tab
     }),
 
 

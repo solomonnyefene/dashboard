@@ -1,4 +1,4 @@
-import './courses.css'
+import './courses/courses.css'
 import student from './../../images/student.jpeg'
 import {Rate, Badge} from 'antd'
 
