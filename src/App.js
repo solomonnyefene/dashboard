@@ -32,7 +32,12 @@ class App extends React.Component{
         this.props.setActiveTab()
     }
     toggleSideBar = () =>{this.props.toggleSideBar()}
-    toggleTab = (tab) =>{this.props.toggleTab(tab)}
+    toggleTab = (tab, course) =>{
+        this.props.toggleTab(tab)
+        if(course !== undefined){
+            this.props.setCourse(course)
+        }
+    }
     render(){
         let active_tab = this.props.active_tab,
             is_opened = this.props.is_opened_side_bar;
@@ -71,6 +76,7 @@ class App extends React.Component{
                           </div>
                           {active_tab === 'Courses' && <div className="active-tab-indicator"/>}
                           {active_tab === 'Update course' && <div className="active-tab-indicator"/>}
+                          {active_tab === 'New course' && <div className="active-tab-indicator"/>}
                       </div>
                   </Link>
                   <Link to={routes.students}  style={{color:'#fff'}}>
@@ -104,7 +110,9 @@ class App extends React.Component{
 
                                />)}/>
                            <Route exact path={routes.students} render={props => (<Students width={ is_opened? '80%' : '90%'} />)}/>
-                           <Route exact path={routes.update_course} render={props => (<UpdateCourse width={ is_opened? '80%' : '90%'} />)}/>
+                           <Route exact path={routes.update_course} render={props => (
+                               <UpdateCourse width={ is_opened? '80%' : '90%'}/>)}/>
+                           <Route exact path={routes.new_course} render={props => (<NewCourse width={ is_opened? '80%' : '90%'} />)}/>
                        </Switch>
 
                </div>
@@ -128,6 +136,7 @@ const mapDispatchToProps = dispatch => {
         toggleTab: (tab) => {dispatch(mainActions.toggleTab(tab))},
         toggleSideBar: () => {dispatch(mainActions.toggleSibeBar())},
         setActiveTab: () => {dispatch(mainActions.setActiveTab())},
+        setCourse: (course) => {dispatch(mainActions.setCourse(course))},
     };
 
 };

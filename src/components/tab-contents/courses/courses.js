@@ -64,11 +64,15 @@ function Courses(props) {
         <div className="items-wrap text-center" style={{width: width}}>
             <div className="row" >
                 <div className="col-md-3 col-sm-3 col-xs-12 text-center">
-                    <div className="item"
-                         style={{fontSize:'60px', paddingTop:'25px', background:'#f5f5f5', color:'#130060'
-                         }}>
-                        <span className="genicons genicon-add-circle" />
-                    </div>
+                    <Link to={routes.new_course} style={{color:'#130060'}}>
+                        <div className="item"
+                             onClick={()=>toggleTab('New course')}
+                             style={{fontSize:'60px', paddingTop:'25px', background:'#f5f5f5', color:'#130060'
+                             }}>
+                            <span className="genicons genicon-add-circle" />
+                        </div>
+                    </Link>
+
                 </div>
                 <div className="col-md-3 col-sm-3 col-xs-12 text-center">
                     <div className="item">
@@ -108,10 +112,14 @@ function Courses(props) {
                             <div className="col-md-6 col-sm-6 col-xs-12 text-center">
                                 <div className="course">
                                     <div className="course-title">
-                                        <Link to={routes.update_course} style={{color:'#130060'}}>
+                                        <Link  to={{
+                                            pathname: `${routes.update_course}`,
+                                            state: { course: course }
+                                        }}
+                                              style={{color:'#130060'}}>
                                             <span title="Update course" className="genicons genicon-pencil-circle"
                                                   style={{position:'relative', left:'10px'}}
-                                                  onClick={()=>toggleTab('Update course')}
+                                                  onClick={()=>toggleTab('Update course', course)}
                                             />
                                         </Link>
                                         <span style={{marginLeft:'20px'}}>

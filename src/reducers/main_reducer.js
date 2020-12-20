@@ -12,7 +12,8 @@ import typeToReducer from 'type-to-reducer';
 
 const INITIAL_STATE = {
     is_opened_side_bar:false,
-    active_tab: null
+    active_tab: null,
+    course:null
 }
 
 const main = typeToReducer({
@@ -31,6 +32,10 @@ const main = typeToReducer({
    ['SET_ACTIVE_TAB']: (state, action) => ({
         ...state,
         active_tab: state.active_tab === null? 'General' : state.active_tab
+    }),
+    ['SET_COURSE']: (state, action) => ({
+        ...state,
+        course: action.payload
     }),
 
 

@@ -29,6 +29,10 @@ export const setActiveTab = (payload) => ({
     type: 'SET_ACTIVE_TAB',
     payload: payload
 });
+export const setCourse = (payload) => ({
+    type: 'SET_COURSE',
+    payload: payload
+});
 
 export const toggleSibeBar = (payload) => ({
     type: 'TOGGLE_SIDE_BAR',
