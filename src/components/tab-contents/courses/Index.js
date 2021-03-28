@@ -8,7 +8,7 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 import Box from '@material-ui/core/Box';
-import routes from './../../routes/routes'
+import routes from '../../../routes/routes'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -28,6 +28,9 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+
+// ----components----
+import CoursesList from './Courses'
 
 const drawerWidth = 240;
 
@@ -56,16 +59,16 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function General() {
+export default function Courses(){
   const classes = useStyles();
   const theme = useTheme();
  
   return (
     <Typography>
-         <div style={{marginTop:'60px', color:'#0000', paddingLeft:'20px'}}> 
-           <h3 >General statistics</h3>
-         </div>
-        <Box
+         {/* <div style={{marginTop:'60px', color:'#0000', paddingLeft:'20px'}}> 
+           <h3 >Courses: <span style={{fontSize:'18px', color:'orangered'}}>general stats</span></h3>
+         </div> */}
+        {/* <Box
         display="flex"
         flexWrap="wrap"
         alignContent="center"
@@ -74,26 +77,14 @@ export default function General() {
         bgcolor="background.paper"
         // css={{margin:'auto'}}
       >
-    
         <Box className={classes.item_paper} p={1} bgcolor="grey.300">
           <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                <ListItemIcon >
-                <span className="genicons genicon-folder-open" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                Courses &nbsp;&nbsp;
-                </ListItemIcon>
-                <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
-        <Box className={classes.item_paper} p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-            <ListItem button key={2}>
+          <ListItem button key={2}>
                   <ListItemIcon >
-                  <span className="genicons genicon-folder-open" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                  Lessons: &nbsp;&nbsp;
+                  <span className="genicons genicon-add-circle" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
+                  Add new course: &nbsp;&nbsp;
                   </ListItemIcon>
-                  <b style={{fontSize:'30px'}}>20</b>
+                  <b style={{fontSize:'30px'}}>.</b>
               </ListItem>
           </Paper>
         </Box>
@@ -102,9 +93,20 @@ export default function General() {
             <ListItem button key={2}>
                   <ListItemIcon >
                   <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                  Enrollments: &nbsp;&nbsp;
+                  Free: &nbsp;&nbsp;
                   </ListItemIcon>
-                  <b style={{fontSize:'30px'}}>20</b>
+                  <b style={{fontSize:'30px'}}>50</b>
+              </ListItem>
+          </Paper>
+        </Box>
+        <Box className={classes.item_paper} p={1} bgcolor="grey.300">
+          <Paper className={classes.item_paper_inner}>
+              <ListItem button key={2}>
+                <ListItemIcon >
+                <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
+                Premium &nbsp;&nbsp;
+                </ListItemIcon>
+                <b style={{fontSize:'30px'}}>5</b>
               </ListItem>
           </Paper>
         </Box>
@@ -113,59 +115,21 @@ export default function General() {
               <ListItem button key={2}>
                     <ListItemIcon >
                     <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Subscriptions: &nbsp;&nbsp;
+                    Active: &nbsp;&nbsp;
                     </ListItemIcon>
                     <b style={{fontSize:'30px'}}>20</b>
               </ListItem>
           </Paper>
         </Box>
-        <Box  className={classes.item_paper}p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                    <ListItemIcon >
-                    <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Tutors: &nbsp;&nbsp;
-                    </ListItemIcon>
-                    <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
-        <Box  className={classes.item_paper}p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                    <ListItemIcon >
-                    <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Tutors: &nbsp;&nbsp;
-                    </ListItemIcon>
-                    <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
-        <Box  className={classes.item_paper}p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                    <ListItemIcon >
-                    <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Tutors: &nbsp;&nbsp;
-                    </ListItemIcon>
-                    <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
-        <Box  className={classes.item_paper}p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                    <ListItemIcon >
-                    <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Tutors: &nbsp;&nbsp;
-                    </ListItemIcon>
-                    <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
-        
 
-      </Box>
+      </Box> */}
+
+<        div style={{marginTop:'60px', color:'#0000', paddingLeft:'5px'}}> 
+           <h3 >Courses</h3>
+         </div>
+         <Typography>
+           <CoursesList />
+         </Typography>
     </Typography>
   );
 }
