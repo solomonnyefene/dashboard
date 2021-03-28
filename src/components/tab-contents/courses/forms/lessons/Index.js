@@ -10,7 +10,7 @@ import {DropzoneArea} from 'material-ui-dropzone'
 import LessonTabs from './lesson_tabs'
 
 
-export default function LessonForm(props){
+export default function LessonsFormIndex(props){
     let initialValues,
     course = props.course && props.course
 
