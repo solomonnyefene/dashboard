@@ -34,7 +34,7 @@ export default function CourseImageForm(props){
                 render={({ handleSubmit, form, submitting, pristine, values }) => (
                     <form onSubmit={handleSubmit} style={{width:'inherit'}} >
                         <div >
-                           <h4 style={{color:'orangered'}}>Cover image</h4>
+                           <h4 style={{color:'orangered'}}>Update cover image</h4>
                             <DropzoneArea
                                 onChange={handleChange.bind(this)}
                             />

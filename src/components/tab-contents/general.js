@@ -141,28 +141,6 @@ export default function General() {
               </ListItem>
           </Paper>
         </Box>
-        <Box  className={classes.item_paper}p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                    <ListItemIcon >
-                    <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Tutors: &nbsp;&nbsp;
-                    </ListItemIcon>
-                    <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
-        <Box  className={classes.item_paper}p={1} bgcolor="grey.300">
-          <Paper className={classes.item_paper_inner}>
-              <ListItem button key={2}>
-                    <ListItemIcon >
-                    <span className="genicons genicon-people" style={{fontSize:'30px', color:"#130060"}} />&nbsp;
-                    Tutors: &nbsp;&nbsp;
-                    </ListItemIcon>
-                    <b style={{fontSize:'30px'}}>20</b>
-              </ListItem>
-          </Paper>
-        </Box>
         
 
       </Box>

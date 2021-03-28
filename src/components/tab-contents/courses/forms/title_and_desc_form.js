@@ -34,7 +34,7 @@ export default function TitleAndDescForm(props){
                     <form onSubmit={handleSubmit} style={{width:'inherit'}} >
                         <div >
 
-                                    <h4 style={{color:'orangered'}}>Title & description</h4>
+                                    <h4 style={{color:'orangered'}}>Update title & description</h4>
                                     <Field    name="title"
                                         render={({ input, meta }) => (
                                             <div>

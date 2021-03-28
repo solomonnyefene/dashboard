@@ -28,12 +28,26 @@ export default function OthersForm(props){
         
     }
 
+    const levels = [
+        {id:1, name:'Basic'},
+        {id:2, name:'JHS'},
+        {id:3, name:'SHS'},
+        {id:4, name:'Advance'}
+    ]
+
+    const categories = [
+        {id:1, name:'Science and Nature'},
+        {id:2, name:'Politics'},
+        {id:3, name:'Technology'},
+        {id:4, name:'Humanities'}
+    ]
+
     return(
         <Form onSubmit={onSubmit}  style={{width:'100%'}} 
                  initialValues={initialValues}
                 render={({ handleSubmit, form, submitting, pristine, values }) => (
                     <form onSubmit={handleSubmit} style={{width:'inherit'}} >
-                         <h4 style={{color:'orangered'}}>Category, price & level</h4>
+                         <h4 style={{color:'orangered'}}>Update category, price & level</h4>
                         <div className="row">
                             <div className="col-md-6">
                                     <label>
@@ -44,9 +58,20 @@ export default function OthersForm(props){
                                         render={({ input, meta }) => (
                                             <div>
                                                 <div>
-                                                    <Input  {...input}
+                                                    <Select  {...input}
+                                                            style={{width:'100%'}}
+                                                            defaultValue="Selecct category"
                                                             placeholder="Enter category"
-                                                    />
+                                                    >
+                                                        {
+                                                            categories.map((category) => {
+                                                                return(
+                                                                    <option value={category.id}>{category.name}</option>
+
+                                                                )
+                                                            })
+                                                        }
+                                                    </Select>
                                                 </div>
                                             </div>
                                         )}
@@ -60,9 +85,20 @@ export default function OthersForm(props){
                                         render={({ input, meta }) => (
                                             <div>
                                                 <div>
-                                                    <Input  {...input}
-                                                            placeholder="Enter level"
-                                                    />
+                                                <Select  {...input}
+                                                            style={{width:'100%'}}
+                                                            defaultValue="Selecct category"
+                                                            placeholder="Enter category"
+                                                    >
+                                                        {
+                                                            levels.map((level) => {
+                                                                return(
+                                                                    <option value={level.id}>{level.name}</option>
+
+                                                                )
+                                                            })
+                                                        }
+                                                    </Select>
                                                 </div>
                                             </div>
                                         )}

@@ -49,11 +49,12 @@ const useStyles = makeStyles((theme) => ({
      display:'flex'
   },
   appBar: {
-    transition: theme.transitions.create(['margin', 'width'], {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.leavingScreen,
+     width:'100 vw',
+    // transition: theme.transitions.create(['margin', 'width'], {
+    //   easing: theme.transitions.easing.sharp,
+    //   duration: theme.transitions.duration.leavingScreen,
   
-    }),
+    // }),
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -111,6 +112,11 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginLeft: 0,
   },
+  current_user:{
+    position:'fixed', left:'90vw', fontSize:16, padding:3, top:17,
+    cursor:'pointer'
+  }
+
 }));
 
 export default function Main() {
@@ -150,7 +156,12 @@ export default function Main() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap style={{color:'#fff'}}>
-            MyQtab Admin Dashboard
+            Admin Dashboard
+
+            <div className={classes.current_user}> 
+               <span className="genicons genicon-person"/>&nbsp;
+              Logout
+            </div>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -205,12 +216,24 @@ export default function Main() {
             </List>
         </Link>
         <Divider />
+
+        <Link to={routes.courses}  style={{color:'#fff'}}>
+            <List onClick={()=>setActiveTab('Courses')}>
+                <ListItem button key={1}>
+                <ListItemIcon title="Courses">
+                    <span className="genicons genicon-person" 
+                    style={{fontSize:'30px', color:'#fff'}} />
+                </ListItemIcon>
+                    <ListItemText primary="Logout" />
+                </ListItem>
+            </List>
+        </Link>
+
       </Drawer>
       <main
         className={clsx(classes.content, {
           [classes.contentShift]: open,
         })}  >
-
 
                     <Switch> 
                     <Route exact path={routes.root} render={props =>

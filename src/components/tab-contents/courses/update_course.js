@@ -12,10 +12,7 @@ import {DropzoneArea} from 'material-ui-dropzone'
 import TitleAndDescForm from './forms/title_and_desc_form'
 import CourseImageForm from './forms/course_image_form'
 import OthersForm from './forms/others_form'
-import LessonsForm from './forms/lessons_form'
-
-
-
+import LessonsFormIndex from './forms/lessons/Index'
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -60,7 +57,7 @@ export default function CoursesList(props){
             </div>
 
             <div style={{marginTop:'40px'}}>
-                <LessonsForm course={course}/>
+                <LessonsFormIndex course={course}/>
             </div>
         </div>
     )

@@ -7,6 +7,7 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
+import { useDispatch } from 'react-redux'
 import Box from '@material-ui/core/Box';
 import routes from './../../../routes/routes'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -63,8 +64,10 @@ const useStyles = makeStyles((theme) => ({
 export default function CoursesList() {
   const classes = useStyles();
   const theme = useTheme();
-  const [course, setCourse] = useState(null)
+  const [course, setCos] = useState(null)
   const [isShowEditForm, setIsShowEditForm] = useState(false)
+  const dispatch = useDispatch()
+
 
   let courses = [
     {
@@ -116,7 +119,8 @@ export default function CoursesList() {
   const toggleUpdateCourseForm = (course) => {
     console.log('MY COURSE', course)
     setIsShowEditForm(true)
-    setCourse(course)
+    setCos(course)
+    dispatch(setCourse(course))
   }
  
   return (
@@ -155,6 +159,18 @@ export default function CoursesList() {
                                The course has 4 lessons which will be delivered on in four conservative days
                              </b>
                         </ListItem>
+                    </Paper>
+                    <Paper className={classes.course_lessons_paper}>
+                        <div className="row">
+                            <div className="col-6">Level: </div>
+                            <div className="col-6 text-right">JHS</div>
+                        </div>
+                    </Paper>
+                    <Paper className={classes.course_lessons_paper}>
+                        <div className="row">
+                            <div className="col-6">Price: </div>
+                            <div className="col-6 text-right">${course.price}</div>
+                        </div>
                     </Paper>
                     <Paper className={classes.course_lessons_paper}>
                         <div className="row">
